@@ -147,3 +147,14 @@ type LyricLine struct {
 	Text  string `json:"Text"`
 	Start int64  `json:"Start"`
 }
+
+type Movie struct {
+	// TODO: add more params
+	Name           string `json:"Name"`
+	ProductionYear int    `json:"ProductionYear"`
+}
+
+type movies struct {
+	Movies      []*Movie `json:"Items"`
+	TotalMovies int      `json:"TotalRecordCount"`
+}

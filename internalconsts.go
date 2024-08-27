@@ -10,6 +10,7 @@ const (
 	folderTypePlaylists   mediaItemType = "PlaylistsFolder"
 	folderTypeCollections mediaItemType = "CollectionFolder"
 	mediaTypeGenre        mediaItemType = "Genre"
+	mediaTypeMovie        mediaItemType = "Movie"
 )
 
 const (
